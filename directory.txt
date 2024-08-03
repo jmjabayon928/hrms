@@ -1,0 +1,45 @@
+hrms_project/
+│
+├── config/
+│   ├── config.php
+│   └── database.php
+│
+├── public/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── scripts.js
+│   └── index.php
+│
+├── src/
+│   ├── controllers/
+│   │   ├── EmployeeController.php
+│   │   ├── PayrollController.php
+│   │   └── AuthController.php
+│   │
+│   ├── models/
+│   │   ├── Employee.php
+│   │   ├── Payroll.php
+│   │   └── User.php
+│   │
+│   ├── views/
+│   │   ├── employees/
+│   │   │   ├── list.php
+│   │   │   └── edit.php
+│   │   ├── payroll/
+│   │   │   ├── list.php
+│   │   │   └── process.php
+│   │   └── auth/
+│   │       ├── login.php
+│   │       └── register.php
+│   │
+├── tests/
+│   ├── EmployeeTest.php
+│   ├── PayrollTest.php
+│   └── AuthTest.php
+│
+├── .env
+├── .gitignore
+├── composer.json
+├── README.md
+└── index.php
